@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- Setup Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-auth-compat.js"></script>
+    <script>
+      firebase.initializeApp({
+        /* Firebase config */
+        apiKey: "AIzaSyBuEJVDhjE6jsld2VZMlmOu2uEDOxr_2-E",
+        authDomain: "mindx-ci-72-75fe2.firebaseapp.com",
+        projectId: "mindx-ci-72-75fe2",
+        storageBucket: "mindx-ci-72-75fe2.appspot.com",
+        messagingSenderId: "710859412485",
+        appId: "1:710859412485:web:d2097f847420f6be5bf86c",
+      });
+
+      const db = firebase.firestore();
+    </script>
+
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
