@@ -36,6 +36,7 @@ class Login {
     this.form.appendChild(this.inputPassword.container);
 
     this.btnLogin.innerHTML = "Login";
+    this.btnLogin.classList = "btn-login"
     this.btnLogin.addEventListener("click", this.handleLogin);
 
     this.btnRegister.innerHTML = "Register";

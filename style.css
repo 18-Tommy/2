@@ -18,3 +18,7 @@
 .right__main-content > chat-container {
   flex: 2;
 }
+
+.btn-login {
+  background: red;
+}
